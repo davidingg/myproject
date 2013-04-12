@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/com/david/basiscloan/activity/BasisCloanResultActivity.java=UTF-8
+encoding//src/com/david/basiscloan/activity/BasisCloanSetActivity.java=UTF-8
+encoding//src/com/david/basiscloan/activity/CloanCalculatorActivity.java=UTF-8
+encoding//src/com/david/basiscloan/activity/PrepaymentResultActivity.java=UTF-8
+encoding//src/com/david/basiscloan/activity/PrepaymentSetActivity.java=UTF-8
+encoding//src/com/david/basiscloan/model/BasisCloanSetManager.java=UTF-8
+encoding//src/com/david/basiscloan/model/BasisCloanSetManagerImpl.java=UTF-8
+encoding//src/com/david/basiscloan/model/PrepaymentSetManager.java=UTF-8
+encoding//src/com/david/basiscloan/model/PrepaymentSetManagerImpl.java=UTF-8
+encoding//src/com/david/cloancalculator/util/BaseDataEntities.java=UTF-8
+encoding//src/com/david/cloancalculator/util/BaseDataEntity.java=UTF-8
+encoding//src/com/david/cloancalculator/util/StringHelper.java=UTF-8
+encoding//src/com/david/cloancalculator/util/Utils.java=UTF-8
+encoding//test/com/david/basiscloan/model/BasisCloanSetManagerImplTest.java=UTF-8

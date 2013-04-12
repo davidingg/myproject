@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:40
+-keep class android.test.InstrumentationTestRunner { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.david.basiscloan.activity.BasisCloanResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.david.basiscloan.activity.BasisCloanSetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.david.basiscloan.activity.CloanCalculatorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.david.basiscloan.activity.PrepaymentResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.david.basiscloan.activity.PrepaymentSetActivity { <init>(...); }
+
+# onClick res/layout/cloan_title.xml #generated:10
+-keepclassmembers class * { *** login_back(...); }
+

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/register_background"
+    android:orientation="vertical" >
+	
+    <include
+        android:id="@+id/knowledge_carcare_logo"
+        layout="@layout/cloan_title" />
+	<RelativeLayout android:id="@+id/adcontainer"
+		android:layout_width="fill_parent" android:layout_height="50dp"
+	>
+	</RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_marginTop="1.0dip"
+                android:layout_weight="1.34"
+                android:background="@drawable/bg_register_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8.0dip"
+                    android:paddingTop="8.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:text="房款总额:"
+                        android:textColor="@color/text_lable" />
+
+                    <TextView
+                        android:id="@+id/house_tot_money"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:background="#00000000"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/text_lable" 
+                        android:gravity="right"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="@color/grey4" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8.0dip"
+                    android:paddingTop="8.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:text="贷款总额:"
+                        android:textColor="@color/text_lable" />
+
+                    <TextView
+                        android:id="@+id/cloan_tot_money"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:background="#00000000"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/text_lable" 
+                        android:gravity="right"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="@color/grey4" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8.0dip"
+                    android:paddingTop="8.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:text="还款总额:"
+                        android:textColor="@color/text_lable" />
+
+                    <TextView
+                        android:id="@+id/repay_money"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:background="#00000000"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/text_lable" 
+                        android:gravity="right"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="@color/grey4" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8.0dip"
+                    android:paddingTop="8.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:text="支付利息:"
+                        android:textColor="@color/text_lable" />
+
+                    <TextView
+                        android:id="@+id/interest"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:background="#00000000"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/text_lable" 
+                        android:gravity="right"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="@color/grey4" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8.0dip"
+                    android:paddingTop="8.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:text="首期付款:"
+                        android:textColor="@color/text_lable" />
+
+                    <TextView
+                        android:id="@+id/fist_pay"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:background="#00000000"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/text_lable" 
+                        android:gravity="right"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="@color/grey4" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8.0dip"
+                    android:paddingTop="8.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:text="贷款月数:"
+                        android:textColor="@color/text_lable" />
+
+                    <TextView
+                        android:id="@+id/month_cnt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:background="#00000000"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/text_lable" 
+                        android:gravity="right"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="@color/grey4" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8.0dip"
+                    android:paddingTop="8.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:text="月均还款:"
+                        android:textColor="@color/text_lable" />
+
+                    
+                    <TextView
+                        android:id="@+id/month_payment"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:background="#00000000"
+                        android:textColor="@color/text_lable" 
+                        android:gravity="right"
+                        android:scrollbars="vertical"
+                        android:singleLine="false" 
+                        android:maxLines="4" 
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

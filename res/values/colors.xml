@@ -1,0 +1,41 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+	<color name="news_channel_title_color">#ff000000</color>
+    <color name="news_channel_title_color_on">#ffffffff</color>
+    <color name="news_channel_content_color">#ff8c928c</color>
+    <color name="news_channel_content_color_on">#ffe7e7e7</color>
+    <color name="news_channel_color">#ff164885</color>
+    <color name="translucent">#99000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="news_tab_font_color">#ff00ccff</color>
+    <color name="black">#00000000</color>
+    <color name="black_50a">#50000000</color>
+    <color name="deep_orange">#ffc15919</color>
+    <color name="blue2">#ff6eb6d7</color>
+    <color name="blue3">#ff006fa1</color>
+    <color name="grey">#ffbcc7d3</color>
+    <color name="grey2">#ff9f9f9f</color>
+    <color name="grey3">#ff999999</color>
+    <color name="grey4">#ffcccccc</color>
+    <color name="grey5">#ffededed</color>
+    <color name="grey6">#ff6c6c6c</color>
+    <color name="grey7">#ff808080</color>
+    <color name="red">#ffcc6600</color>
+    <color name="video_news_channel_blue">#ff324f85</color>
+    <color name="video_news_item_content">#ff606060</color>
+    <color name="video_news_details_grey">#ff565c64</color>
+    <color name="video_news_details_img_bg">#ff898989</color>
+    <color name="video_news_search_bg">#ff565c64</color>
+    <color name="setting_help_bg">#fff0f0f0</color>
+    <color name="setting_answer_grey">#ff666666</color>
+    <color name="image_news_bg">#99000000</color>
+    <color name="allbackgroud">#ffe6e6e6</color>
+    <color name="listview_hintcolor">#ffe6e6e6</color>
+    <color name="balck_color">#ffffffff</color>
+    <color name="white_color">#ff000000</color>
+    <color name="gray_color">#ff999999</color>
+    <color name="electricity_mark_font">#ff027974</color>
+    <color name="text_lable">#3a3939</color>
+</resources>
