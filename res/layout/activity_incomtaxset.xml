@@ -41,11 +41,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10.0dip"
-                        android:text="还款方式:"
+                        android:text="月收入:"
                         android:textColor="@color/text_lable" />
 
                     <EditText
-                        android:id="@+id/repayment_type"
+                        android:id="@+id/month_income"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10.0dip"
@@ -75,11 +75,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10.0dip"
-                        android:text="贷款类别:"
+                        android:text="三险一金:"
                         android:textColor="@color/text_lable" />
 
                     <EditText
-                        android:id="@+id/cloan_type"
+                        android:id="@+id/insure"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10.0dip"
@@ -109,47 +109,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10.0dip"
-                        android:text="贷款总额:"
+                        android:text="起征额:"
                         android:textColor="@color/text_lable" />
 
                     <EditText
-                        android:id="@+id/cloan_money"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10.0dip"
-                        android:layout_marginRight="10.0dip"
-                        android:background="#00000000"
-                        android:maxLines="1"
-                        android:singleLine="true" 
-                        android:textColor="@color/text_lable" 
-                        android:gravity="right"
-                        android:hint="请输入多少万元"
-                        />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="fill_parent"
-                    android:layout_height="1.0dip"
-                    android:background="@color/grey4" />
-
-                
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal"
-                    android:paddingBottom="8.0dip"
-                    android:paddingTop="8.0dip" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10.0dip"
-                        android:text="按揭年数:"
-                        android:textColor="@color/text_lable" />
-
-                    <EditText
-                        android:id="@+id/cloan_years"
+                        android:id="@+id/start_tax"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10.0dip"
@@ -161,70 +125,8 @@
                         android:gravity="right"
                         />
                 </LinearLayout>
-                <View
-                    android:layout_width="fill_parent"
-                    android:layout_height="1.0dip"
-                    android:background="@color/grey4" />
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal"
-                    android:paddingBottom="8.0dip"
-                    android:paddingTop="8.0dip" >
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10.0dip"
-                        android:text="利        率:"
-                        android:textColor="@color/text_lable" />
-
-                    <EditText
-                        android:id="@+id/rate"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10.0dip"
-                        android:layout_marginRight="10.0dip"
-                        android:background="#00000000"
-                        android:maxLines="1"
-                        android:singleLine="true" 
-                        android:textColor="@color/text_lable" 
-                        android:gravity="right"
-                        />
-                </LinearLayout>
-                <View
-                    android:layout_width="fill_parent"
-                    android:layout_height="1.0dip"
-                    android:background="@color/grey4" />
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal"
-                    android:paddingBottom="8.0dip"
-                    android:paddingTop="8.0dip" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10.0dip"
-                        android:text="折        扣:"
-                        android:textColor="@color/text_lable" />
-
-                    <EditText
-                        android:id="@+id/rebate"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10.0dip"
-                        android:layout_marginRight="10.0dip"
-                        android:background="#00000000"
-                        android:maxLines="1"
-                        android:singleLine="true" 
-                        android:textColor="@color/text_lable" 
-                        android:gravity="right"
-                        />
-                </LinearLayout>
+               
             </LinearLayout>
 
             <LinearLayout
@@ -260,7 +162,81 @@
                     android:textStyle="bold" 
                     />
             </LinearLayout>
+           <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/bg_register_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8.0dip"
+                    android:paddingTop="8.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:text="税后月收入:"
+                        android:textColor="@color/text_lable" />
+
+                    <EditText
+                        android:id="@+id/month_income_notcontain_tax"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:background="#00000000"
+                        android:maxLines="1"
+                        android:singleLine="true" 
+                        android:textColor="@color/text_lable" 
+                        android:gravity="right"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="@color/grey4" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8.0dip"
+                    android:paddingTop="8.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:text="应缴个税:"
+                        android:textColor="@color/text_lable" />
+
+                    <EditText
+                        android:id="@+id/incom_tax"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:background="#00000000"
+                        android:maxLines="1"
+                        android:singleLine="true" 
+                        android:textColor="@color/text_lable" 
+                        android:gravity="right"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
         </LinearLayout>
+        
     </ScrollView>
 
 </LinearLayout>
