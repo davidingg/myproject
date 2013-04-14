@@ -102,4 +102,31 @@
 	    <item>缩短还款期限,月还款额基本不变</item>
 	    <item>减少月还款额,还款期限不变</item>
 	</string-array>
+	<string-array name="Income_tax_tier">
+	    <item></item>
+		<item>1500</item>
+		<item>4500</item>
+		<item>9000</item>
+		<item>35000</item>
+		<item>55000</item>
+		<item>80000</item>
+	</string-array> 
+	<string-array name="Income_tax_ratio">
+	    <item>3</item>
+		<item>10</item>
+		<item>20</item>
+		<item>25</item>
+		<item>30</item>
+		<item>35</item>
+		<item>45</item>
+	</string-array> 
+	<string-array name="Income_tax_reduce">
+	    <item>0</item>
+		<item>105</item>
+		<item>555</item>
+		<item>1005</item>
+		<item>2755</item>
+		<item>5505</item>
+		<item>13505</item>
+	</string-array> 
 </resources>

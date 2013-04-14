@@ -18,7 +18,7 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -186,7 +186,7 @@
                         android:text="税后月收入:"
                         android:textColor="@color/text_lable" />
 
-                    <EditText
+                    <TextView
                         android:id="@+id/month_income_notcontain_tax"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
@@ -220,7 +220,7 @@
                         android:text="应缴个税:"
                         android:textColor="@color/text_lable" />
 
-                    <EditText
+                    <TextView
                         android:id="@+id/incom_tax"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
