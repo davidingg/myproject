@@ -28,4 +28,15 @@
            android:textSize="20.0sp"
            android:textStyle="bold" 
            />
+       <Button
+           android:id="@+id/incomtaxbtn"
+           android:layout_width="150dp"
+           android:layout_marginTop="20.0dip"
+           android:layout_height="wrap_content"
+           android:background="@drawable/big_button_xml"
+           android:text="个税计算器"
+           android:textColor="@color/white"
+           android:textSize="20.0sp"
+           android:textStyle="bold" 
+           />
 </LinearLayout>

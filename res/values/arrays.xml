@@ -103,7 +103,7 @@
 	    <item>减少月还款额,还款期限不变</item>
 	</string-array>
 	<string-array name="Income_tax_tier">
-	    <item></item>
+	    <item>0</item>
 		<item>1500</item>
 		<item>4500</item>
 		<item>9000</item>

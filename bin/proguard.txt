@@ -1,4 +1,4 @@
-# view AndroidManifest.xml #generated:40
+# view AndroidManifest.xml #generated:42
 -keep class android.test.InstrumentationTestRunner { <init>(...); }
 
 # view AndroidManifest.xml #generated:36
@@ -15,6 +15,9 @@
 
 # view AndroidManifest.xml #generated:37
 -keep class com.david.basiscloan.activity.PrepaymentSetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.david.incomtax.activity.IncomeTaxSetActivity { <init>(...); }
 
 # onClick res/layout/cloan_title.xml #generated:10
 -keepclassmembers class * { *** login_back(...); }

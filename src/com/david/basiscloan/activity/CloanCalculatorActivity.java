@@ -10,11 +10,13 @@ import android.widget.Button;
 import cn.domob.android.ads.DomobUpdater;
 
 import com.david.cloancalculator.R;
+import com.david.incomtax.activity.IncomeTaxSetActivity;
 
 public class CloanCalculatorActivity extends Activity implements OnClickListener{
 	/** Called when the activity is first created. */
 	private Button basiscloanBtn = null;//貸款計算器
 	private Button prepayBtn = null;//提前還款計算器
+	private Button incomtaxBtn = null;//个税计算器
 	private int REQUEST_CODE = 1;
 	public static final String PUBLISHER_ID = "56OJzUrYuNUl6vGcqG";
     @Override
@@ -31,6 +33,8 @@ public class CloanCalculatorActivity extends Activity implements OnClickListener
     	basiscloanBtn.setOnClickListener(this);//添加点击事件
     	this.prepayBtn = (Button) findViewById(R.id.prepaybtn);//获取汽车信息注册按钮对象
     	prepayBtn.setOnClickListener(this);
+    	this.incomtaxBtn = (Button) findViewById(R.id.incomtaxbtn);
+    	incomtaxBtn.setOnClickListener(this);
 	}   
     public void onClick(View v) {
 		switch(v.getId())
@@ -41,6 +45,9 @@ public class CloanCalculatorActivity extends Activity implements OnClickListener
 		case R.id.prepaybtn:
 			sendPrepay();
 			break;
+		case R.id.incomtaxbtn:
+			sendIncomTax();
+			break;	
 		}
 	}
     //跳转页面
@@ -54,6 +61,13 @@ public class CloanCalculatorActivity extends Activity implements OnClickListener
     public void sendPrepay(){
     	Intent intent=new Intent();//申请传值
 		intent.setClass(CloanCalculatorActivity.this, PrepaymentSetActivity.class);//画面跳转到knowledge_car_active 保养页面
+		setResult(REQUEST_CODE,intent);
+		startActivity(intent);
+    }
+    //跳轉頁面
+    public void sendIncomTax(){
+    	Intent intent=new Intent();//申请传值
+    	intent.setClass(CloanCalculatorActivity.this, IncomeTaxSetActivity.class);//画面跳转到knowledge_car_active 保养页面
 		setResult(REQUEST_CODE,intent);
 		startActivity(intent);
     }

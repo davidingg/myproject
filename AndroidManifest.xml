@@ -36,6 +36,8 @@
         <activity android:name="com.david.basiscloan.activity.BasisCloanResultActivity" android:label="@string/app_name" android:screenOrientation="portrait" />
 		<activity android:name="com.david.basiscloan.activity.PrepaymentSetActivity" android:label="@string/app_name" android:screenOrientation="portrait" />
         <activity android:name="com.david.basiscloan.activity.PrepaymentResultActivity" android:label="@string/app_name" android:screenOrientation="portrait" />
+		<activity android:name="com.david.incomtax.activity.IncomeTaxSetActivity" android:label="@string/app_name" android:screenOrientation="portrait" />
+		    
     </application>
 	<instrumentation android:name="android.test.InstrumentationTestRunner"
          android:targetPackage="com.david.cloancalculator" android:label="tests for junittest" />

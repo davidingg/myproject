@@ -57,22 +57,24 @@ public class IncomTaxSetManagerImpl implements IncomTaxSetManager {
 	 * @param payTaxMoney  应纳税额
 	 * @return 级数
 	 */
-	private int getIncomeTaxTierIndex(double payTaxMoney){
+	public int getIncomeTaxTierIndex(double payTaxMoney){
 		double lastIncomeTaxTiers = 0;//上次级数金额
+		int lastindex = 0;
 		int index = 0;
 		for(int i = 0;i<incomeTaxTiers.length;i++){//循环所以级数
 			if(payTaxMoney>=lastIncomeTaxTiers){//应纳税额>=上一级数
-				if(i==incomeTaxTiers.length){
+				if(i==incomeTaxTiers.length-1){
 					index = i;
 					break;
 				} else {
 					if(payTaxMoney<Double.parseDouble(incomeTaxTiers[i])){
-						index = i;
+						index = lastindex;
 						break;
 					}
 				}
 			}
 			lastIncomeTaxTiers = Double.parseDouble(incomeTaxTiers[i]);
+			lastindex = i;
 		} 
 		return index;
 	}
